@@ -672,6 +672,7 @@
         <members>Event.WhoId</members>
         <members>Executive_Review__c.Due_Date__c</members>
         <members>Executive_Review__c.Opportunity__c</members>
+        <members>Goal.OrigGoalId__c</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
         <members>Lead.Address</members>
@@ -714,6 +715,7 @@
         <members>Macro.Description</members>
         <members>Macro.Name</members>
         <members>Macro.OwnerId</members>
+        <members>Metric.OrigMetricId__c</members>
         <members>Opportunity.AccountId</members>
         <members>Opportunity.Amount</members>
         <members>Opportunity.CampaignId</members>
@@ -982,6 +984,10 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>Demo_Dashboards</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
         <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
         <members>Lead.Standard_Rule_for_Leads_with_Duplicate_Contacts</members>
         <name>DuplicateRule</name>
@@ -1111,6 +1117,7 @@
         <members>Asset.AllAssets</members>
         <members>Campaign.AllActiveCampaigns</members>
         <members>Campaign.MyActiveCampaigns</members>
+        <members>CampaignInfluence.CampaignInfluence</members>
         <members>Case.AllClosedCases</members>
         <members>Case.AllOpenCases</members>
         <members>Case.MyCases</members>
@@ -1161,6 +1168,12 @@
     <types>
         <members>Customer</members>
         <name>ManagedTopics</name>
+    </types>
+    <types>
+        <members>Account.Standard_Account_Match_Rule_v1_0</members>
+        <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
+        <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
+        <name>MatchingRule</name>
     </types>
     <types>
         <members>Customer.Block_banned_keywords</members>
@@ -1225,6 +1238,7 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>Case.LogACall</members>
         <members>Case.NewChildCase</members>
         <members>CollaborationGroup.NewGroupMember</members>
         <members>CollaborationGroup.NewGroupRecord</members>
@@ -1254,6 +1268,8 @@
     </types>
     <types>
         <members>Idea.InternalIdeasIdeaRecordType</members>
+        <members>Metric.Completion</members>
+        <members>Metric.Progress</members>
         <members>Opportunity.Product</members>
         <members>Opportunity.Service</members>
         <members>Solution.Healthcare</members>
