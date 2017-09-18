@@ -1282,6 +1282,7 @@
     </types>
     <types>
         <members>Demo_Reports</members>
+        <members>Demo_Reports/reports</members>
         <name>Report</name>
     </types>
     <types>
