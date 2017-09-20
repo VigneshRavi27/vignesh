@@ -82,6 +82,7 @@
         <members>UnderConstruction</members>
         <members>my_page</members>
         <members>second_try</members>
+        <members>third_page</members>
         <name>ApexPage</name>
     </types>
     <types>
