@@ -1,8 +1,8 @@
 public class APICallOuts {  
-    
+    //haha
     public static void basicAuthCallout(){
      String userInfo = '{"nmLable":"JJOrg", "sfNmUser":"jayashree.j@autorabit.com","sfTxPwd":"Naresh@7aoB6LTfrRk6OzQYx6JRuDU0Oz"}';
-	 String baseURL = 'http://54.202.231.145:8080/ARVault/addSforgEnvi';
+     String baseURL = 'http://54.202.231.145:8080/ARVault/addSforgEnvi';
     
      HttpRequest req = new HttpRequest();
      req.setEndpoint(baseURL);
@@ -19,7 +19,7 @@ public class APICallOuts {
      EncodingUtil.base64Encode(headerValue);
      req.setHeader('Authorization', authorizationHeader);
      req.setHeader('Content-type', 'application/json');
-   	 req.setBody(userInfo);
+     req.setBody(userInfo);
 
      // Create a new http object to send the request object
      // A response object is generated as a result of the request  
@@ -30,7 +30,7 @@ public class APICallOuts {
    }    
     public static void addSfObjects(){
      String sfOrgId = '{"sfOrgId": "00D6F000001OOISUA4"}';
-	 String baseURL = 'http://54.202.231.145:8080/ARVault/getSfObjects';
+     String baseURL = 'http://54.202.231.145:8080/ARVault/getSfObjects';
     
      HttpRequest req = new HttpRequest();
      req.setEndpoint(baseURL);
@@ -47,7 +47,7 @@ public class APICallOuts {
      EncodingUtil.base64Encode(headerValue);
      req.setHeader('Authorization', authorizationHeader);
      req.setHeader('Content-type', 'application/json');
-   	 req.setBody(sfOrgId);
+     req.setBody(sfOrgId);
 
      // Create a new http object to send the request object
      // A response object is generated as a result of the request  
@@ -68,12 +68,12 @@ public class APICallOuts {
         System.debug(res.getBody());  */
         
        /* HttpRequest req = new HttpRequest();
-		Http http = new Http();
+        Http http = new Http();
 
          String username = 'f939bec89dc549d9bb2a5ef164ac0eb5';
          String password = 'Naresh@7';
   
-    	 Blob headerValue = Blob.valueOf(username + ':' + password);
+         Blob headerValue = Blob.valueOf(username + ':' + password);
         String authorizationHeader = 'BASIC ' +
         EncodingUtil.base64Encode(headerValue);
         req.setHeader('Authorization', authorizationHeader);
@@ -89,13 +89,13 @@ public class APICallOuts {
         String url ='http://54.202.231.145:8080/ARVault/getSfObjects';
               String username = 'f939bec89dc549d9bb2a5ef164ac0eb5';
          String password = 'Naresh@7';
-     			   HttpRequest req = new HttpRequest();
+                   HttpRequest req = new HttpRequest();
                 req.setEndpoint(url);
                 req.setMethod('POST');
          Blob headerValue = Blob.valueOf(username + ':' + password);
               String authorizationHeader = 'BASIC ' +
-          		  EncodingUtil.base64Encode(headerValue);
-          		  req.setHeader('Authorization', authorizationHeader);
+                  EncodingUtil.base64Encode(headerValue);
+                  req.setHeader('Authorization', authorizationHeader);
                 req.setHeader('Content-Type', 'application/x-www-form-urlencoded');
                 req.setBody(''
                         + 'sfOrgId=' + EncodingUtil.urlEncode('00D6F000001OOISUA4', 'UTF-8')
