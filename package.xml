@@ -80,6 +80,8 @@
         <members>StdExceptionTemplate</members>
         <members>Unauthorized</members>
         <members>UnderConstruction</members>
+        <members>my_page</members>
+        <members>second_try</members>
         <name>ApexPage</name>
     </types>
     <types>
