@@ -10,7 +10,7 @@
         <field>OWNER</field>
     </columns>
     <format>Tabular</format>
-    <name>reports</name>
+    <name>reports2</name>
     <params>
         <name>units</name>
         <value>h</value>
